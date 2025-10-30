@@ -1,0 +1,35 @@
+{
+  "name": "speedy-integration-i18n",
+  "version": "2.0.0",
+  "description": "Speedy API integration with Bulgarian and English language support",
+  "main": "speedy-backend-i18n.js",
+  "scripts": {
+    "start": "node speedy-backend-i18n.js",
+    "dev": "nodemon speedy-backend-i18n.js",
+    "test": "node test.js",
+    "serve-widget": "npx http-server -p 8000"
+  },
+  "keywords": [
+    "speedy",
+    "shipping",
+    "bulgaria",
+    "i18n",
+    "internationalization",
+    "multilingual",
+    "bulgarian",
+    "courier"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
